@@ -15,8 +15,7 @@
   "scripts": {
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "test": "jest",
-    "postinstall": "npm i ./packages/buffer --no-save"
+    "test": "jest"
   },
   "files": [
     "lib",
@@ -49,6 +48,7 @@
     }
   ],
   "dependencies": {
+    "buffer": "^6.0.3",
     "node-forge": "^0.10.0"
   },
   "devDependencies": {
