@@ -1,5 +1,5 @@
 {
-  "name": "@ninja-labs/verify-pdf",
+  "name": "@jonz94/verify-pdf",
   "version": "1.0.0",
   "description": "verify pdf files in JS",
   "main": "lib/index.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ninja-labs-tech/verify-pdf.git"
+    "url": "git+https://github.com/jonz94/verify-pdf.git"
   },
   "keywords": [
     "pdf",
@@ -38,9 +38,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ninja-labs-tech/verify-pdf/issues"
+    "url": "https://github.com/jonz94/verify-pdf/issues"
   },
-  "homepage": "https://github.com/ninja-labs-tech/verify-pdf#readme",
+  "homepage": "https://github.com/jonz94/verify-pdf#readme",
   "contributors": [
     {
       "name": "Mohammed Essehemy",
