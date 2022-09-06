@@ -2,7 +2,7 @@
 
 This is a fork of https://github.com/ninja-labs-tech/verify-pdf
 
-verify pdf files in JS (supports both node.js & browser).
+verify pdf files in JS (supports node.js).
 
 ## Verifying PDF signature
 
@@ -28,8 +28,6 @@ import verifyPDF from '@jonz94/verify-pdf';
 
 Verify the digital signature of the pdf and extract the certificates details
 
-### Node.js
-
 ```javascript
 const verifyPDF = require('@jonz94/verify-pdf');
 const signedPdfBuffer = fs.readFileSync('yourPdf');
@@ -41,21 +39,6 @@ const {
     expired,
     signatures
 } = verifyPDF(signedPdfBuffer);
-```
-
-### Browser
-
-```javascript
-import verifyPDF from '@jonz94/verify-pdf';
-
-const readFile = (e) => {
-    const file = e.target.files[0]
-    let reader = new FileReader();
-    reader.onload = function(e) {
-        const { verified } = verifyPDF(reader.result);
-    }
-    reader.readAsArrayBuffer(file);
-};
 ```
 
 * signedPdfBuffer: signed PDF as buffer.
