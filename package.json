@@ -1,6 +1,6 @@
 {
   "name": "@jonz94/verify-pdf",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "verify pdf files in JS",
   "main": "lib/index.js",
   "engines": {
